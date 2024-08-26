@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F7FF;
+  align-items: center;     /* Center horizontally */
+  height: 100vh;    
 }
 
 .imageContainer {
@@ -16,4 +25,12 @@
   padding: 33px 39px 0px 32px;
   color: #ffff;
   align-items: center;
+}
+
+.middleContainer {
+  width: 600px;
+  height: 799px;
+  background-color: #ffff;
+  margin-top: -319px; 
+  border-radius: 20px;
 }

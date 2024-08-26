@@ -1,11 +1,13 @@
 import './App.css';
+import MiddleContent from './components/middleContent.js';
 import UpperEmail from './components/upperEmail.js';
 
 function App() {
   return (
-    <center>
+    <div className='mainContainer'>
       <UpperEmail/>
-    </center>
+      <MiddleContent/>
+    </div>
   );
 }
 
